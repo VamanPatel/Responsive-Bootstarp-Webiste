@@ -1,0 +1,70 @@
+@media (max-width: 960px){
+	.navbar-nav{
+		text-align: center;
+	}
+	.nav-item a:hover{
+			background-color: #DADBDB;
+			color: #27342E;
+			font-weight: bold;
+		}
+
+	.form-inline{
+		justify-content: center;
+		padding: 2px;
+
+	}
+	.form-control{
+		margin-right: 5px;
+	}
+	#footer{
+		padding-top: 120px;
+		padding-bottom: 110px;
+	}
+	#appicon{
+         width: 180px;
+        }
+}
+
+@media (max-width: 800px){
+	#headertext{
+		font-size: 2rem;
+	}
+	.card-text{
+		font-size: 15px;
+	}
+	#appicon{
+         width: 150px;
+        }
+}
+
+@media (max-width: 600px){
+	.card-deck{
+		display: block;
+		margin: 40px;
+		width: auto;
+	}
+	.card-deck .card{
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 420px){
+	.form-control{
+		margin-bottom: 4px;
+	}
+	#headertext{
+		font-size: 1.6rem;
+	}
+	#ptext{
+		font-size: 1rem;
+	}
+	.card-deck{
+		margin: 50px;
+	}
+	#appicon{
+         width: 120px;
+        }
+    #download{
+    	font-size: 20px;
+    }
+}
